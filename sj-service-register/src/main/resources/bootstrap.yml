@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: register
+  cloud:
+    config:
+      uri: http://config:8888
+      fail-fast: true
+      label: test2.0
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

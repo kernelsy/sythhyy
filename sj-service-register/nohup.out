@@ -1,0 +1,548 @@
+09:25:43,458 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:25:43,458 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:25:43,459 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+09:25:43,499 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+09:25:43,565 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:25:43,566 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:25:43,581 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+09:25:43,658 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+09:25:43,660 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+09:25:43,663 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+09:25:43,663 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+09:25:43,666 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jun 14 09:06:13 CST 2019
+09:25:43,666 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+09:25:43,666 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+09:25:43,671 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+09:25:43,671 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+09:25:43,672 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+09:25:43,672 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+09:25:43,673 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:25:43,673 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+09:26:25,754 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:26:25,754 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:26:25,754 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+09:26:25,777 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+09:26:25,835 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:26:25,837 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:26:25,850 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+09:26:25,918 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+09:26:25,920 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+09:26:25,923 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+09:26:25,923 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+09:26:25,926 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jun 14 09:26:25 CST 2019
+09:26:25,926 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+09:26:25,926 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+09:26:25,930 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+09:26:25,930 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+09:26:25,931 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+09:26:25,931 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+09:26:25,932 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:26:25,933 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+10:01:35,674 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:01:35,675 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:01:35,675 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+10:01:35,698 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+10:01:35,757 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:01:35,759 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:01:35,771 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+10:01:35,842 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+10:01:35,843 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+10:01:35,847 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+10:01:35,847 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+10:01:35,850 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jun 14 10:00:01 CST 2019
+10:01:35,850 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+10:01:35,850 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+10:01:35,855 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+10:01:35,855 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+10:01:35,856 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:01:35,856 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+10:01:35,857 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:01:35,857 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+Exception in thread "Thread-13" java.lang.NoClassDefFoundError: ch/qos/logback/classic/spi/ThrowableProxy
+	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:119)
+	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:419)
+	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+	at ch.qos.logback.classic.Logger.log(Logger.java:765)
+	at org.apache.commons.logging.impl.SLF4JLocationAwareLog.warn(SLF4JLocationAwareLog.java:192)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+14:27:38,980 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:27:38,981 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:27:38,981 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+14:27:39,006 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+14:27:39,061 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:27:39,062 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:27:39,075 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+14:27:39,143 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+14:27:39,144 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+14:27:39,147 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+14:27:39,147 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+14:27:39,150 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Thu Jun 20 14:26:42 CST 2019
+14:27:39,150 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:27:39,151 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:27:39,155 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+14:27:39,155 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+14:27:39,156 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:27:39,156 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+14:27:39,156 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:27:39,157 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+13:35:06,293 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:35:06,294 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:35:06,294 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+13:35:06,322 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+13:35:06,382 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:35:06,384 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:35:06,398 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+13:35:06,468 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+13:35:06,470 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+13:35:06,473 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+13:35:06,473 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+13:35:06,476 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jun 28 16:51:08 CST 2019
+13:35:06,477 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+13:35:06,477 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:35:06,482 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+13:35:06,482 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+13:35:06,483 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+13:35:06,483 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+13:35:06,483 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:35:06,484 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+16:52:42,007 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:52:42,008 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:52:42,008 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+16:52:42,036 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+16:52:42,098 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:52:42,099 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:52:42,114 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+16:52:42,187 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+16:52:42,189 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+16:52:42,192 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+16:52:42,192 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+16:52:42,195 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Sun Jun 30 00:46:59 CST 2019
+16:52:42,195 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+16:52:42,195 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+16:52:42,200 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+16:52:42,200 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+16:52:42,201 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+16:52:42,201 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+16:52:42,202 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:52:42,203 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+10:13:14,433 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:13:14,434 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:13:14,434 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+10:13:14,461 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+10:13:14,520 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:13:14,522 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:13:14,537 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+10:13:14,607 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+10:13:14,608 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+10:13:14,611 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+10:13:14,611 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+10:13:14,614 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Sun Jun 30 21:41:17 CST 2019
+10:13:14,615 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+10:13:14,615 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+10:13:14,619 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+10:13:14,619 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+10:13:14,620 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:13:14,620 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+10:13:14,621 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:13:14,622 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+15:01:42,010 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:01:42,010 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:01:42,011 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+15:01:42,035 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+15:01:42,094 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:01:42,095 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:01:42,108 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+15:01:42,177 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+15:01:42,179 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+15:01:42,182 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+15:01:42,182 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+15:01:42,185 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Thu Jul 04 09:29:52 CST 2019
+15:01:42,185 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+15:01:42,185 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+15:01:42,190 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+15:01:42,190 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+15:01:42,192 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:01:42,192 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+15:01:42,192 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:01:42,193 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+09:21:18,240 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:21:18,241 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:21:18,241 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+09:21:18,265 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+09:21:18,324 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:21:18,326 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:21:18,338 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+09:21:18,408 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+09:21:18,409 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+09:21:18,412 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+09:21:18,412 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+09:21:18,415 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Sun Jul 07 18:02:34 CST 2019
+09:21:18,416 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+09:21:18,416 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+09:21:18,421 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+09:21:18,421 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+09:21:18,422 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+09:21:18,422 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+09:21:18,422 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:21:18,423 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+14:37:22,048 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:37:22,049 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:37:22,049 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+14:37:22,073 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+14:37:22,133 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:37:22,134 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:37:22,148 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+14:37:22,220 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+14:37:22,222 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+14:37:22,225 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+14:37:22,225 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+14:37:22,228 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Mon Jul 08 14:37:18 CST 2019
+14:37:22,228 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:37:22,228 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:37:22,233 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+14:37:22,233 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+14:37:22,235 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:37:22,235 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+14:37:22,235 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:37:22,236 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+16:42:29,840 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:42:29,841 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:42:29,841 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+16:42:29,865 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+16:42:29,923 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:42:29,924 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:42:29,939 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+16:42:30,012 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+16:42:30,014 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+16:42:30,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+16:42:30,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+16:42:30,020 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Mon Jul 08 16:42:28 CST 2019
+16:42:30,021 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+16:42:30,021 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+16:42:30,026 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+16:42:30,026 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+16:42:30,027 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+16:42:30,027 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+16:42:30,027 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:42:30,028 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+09:28:34,975 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:28:34,976 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:28:34,976 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+09:28:35,001 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+09:28:35,059 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:28:35,061 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:28:35,074 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+09:28:35,146 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+09:28:35,147 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+09:28:35,150 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+09:28:35,150 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+09:28:35,154 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Mon Jul 08 18:51:43 CST 2019
+09:28:35,155 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+09:28:35,155 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+09:28:35,160 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+09:28:35,160 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+09:28:35,161 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+09:28:35,161 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+09:28:35,162 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:28:35,162 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+10:06:33,243 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:06:33,244 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:06:33,244 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+10:06:33,269 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+10:06:33,326 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:06:33,328 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:06:33,342 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+10:06:33,408 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+10:06:33,409 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+10:06:33,413 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+10:06:33,413 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+10:06:33,416 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jul 12 10:06:31 CST 2019
+10:06:33,416 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+10:06:33,416 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+10:06:33,420 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+10:06:33,420 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+10:06:33,421 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:06:33,421 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+10:06:33,422 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:06:33,423 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+11:33:22,050 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:33:22,051 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:33:22,051 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+11:33:22,078 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+11:33:22,139 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:33:22,140 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+11:33:22,156 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+11:33:22,236 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+11:33:22,237 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+11:33:22,241 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+11:33:22,241 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+11:33:22,244 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jul 12 11:21:14 CST 2019
+11:33:22,244 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+11:33:22,244 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+11:33:22,249 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+11:33:22,249 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+11:33:22,250 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:33:22,250 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+11:33:22,251 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:33:22,252 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+14:52:28,157 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:52:28,158 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:52:28,158 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+14:52:28,187 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+14:52:28,253 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:52:28,255 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:52:28,270 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+14:52:28,345 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+14:52:28,347 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+14:52:28,350 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+14:52:28,350 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+14:52:28,353 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jul 12 13:09:14 CST 2019
+14:52:28,353 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:52:28,353 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:52:28,358 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+14:52:28,358 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+14:52:28,359 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:52:28,359 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+14:52:28,359 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:52:28,360 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+14:09:13,135 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:09:13,136 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:09:13,136 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+14:09:13,159 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+14:09:13,215 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:09:13,216 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:09:13,228 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+14:09:13,298 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+14:09:13,299 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+14:09:13,302 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+14:09:13,302 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+14:09:13,305 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Fri Jul 12 17:31:22 CST 2019
+14:09:13,306 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+14:09:13,306 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+14:09:13,310 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+14:09:13,310 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+14:09:13,311 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:09:13,311 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+14:09:13,312 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:09:13,312 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+10:28:40,713 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:28:40,713 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:28:40,714 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+10:28:40,741 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+10:28:40,804 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:28:40,806 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:28:40,821 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+10:28:40,898 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+10:28:40,899 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+10:28:40,902 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+10:28:40,902 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+10:28:40,905 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Sat Jul 13 18:30:36 CST 2019
+10:28:40,906 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+10:28:40,906 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+10:28:40,910 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+10:28:40,910 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+10:28:40,911 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:28:40,911 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+10:28:40,912 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:28:40,913 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
+10:36:07,885 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:36:07,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:36:07,886 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+10:36:07,921 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7530d0a - URL [jar:file:/mw/code/sythhyy/sj-service-register/target/sj-service-register-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+10:36:07,994 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:36:07,995 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:36:08,012 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RegisterLog]
+10:36:08,120 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use zip compression
+10:36:08,122 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@666641942 - Will use the pattern /mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log for the active file
+10:36:08,125 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - The date pattern is 'yyyy-MM-dd' from file name pattern '/mw/log/syt_v2/register.%d{yyyy-MM-dd}.%i.log.zip'.
+10:36:08,125 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Roll-over at midnight.
+10:36:08,128 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - Setting initial period to Tue Jul 16 10:36:05 CST 2019
+10:36:08,129 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+10:36:08,129 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3941a79c - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+10:36:08,136 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - Active log file name: /mw/log/syt_v2/register.log
+10:36:08,136 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RegisterLog] - File property is set to [/mw/log/syt_v2/register.log]
+10:36:08,137 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:36:08,137 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RegisterLog] to Logger[ROOT]
+10:36:08,138 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:36:08,139 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@506e1b77 - Registering current configuration as safe fallback point
+
+
+ _______  _______  _______ _________ _______ _________ _______  _______         _______  _______  _______           _______  _______
+(  ____ )(  ____ \(  ____ \\__   __/(  ____ \\__   __/(  ____ \(  ____ )       (  ____ \(  ____ \(  ____ )|\     /|(  ____ \(  ____ )
+| (    )|| (    \/| (    \/   ) (   | (    \/   ) (   | (    \/| (    )|       | (    \/| (    \/| (    )|| )   ( || (    \/| (    )|
+| (____)|| (__    | |         | |   | (_____    | |   | (__    | (____)| _____ | (_____ | (__    | (____)|| |   | || (__    | (____)|
+|     __)|  __)   | | ____    | |   (_____  )   | |   |  __)   |     __)(_____)(_____  )|  __)   |     __)( (   ) )|  __)   |     __)
+| (\ (   | (      | | \_  )   | |         ) |   | |   | (      | (\ (                ) || (      | (\ (    \ \_/ / | (      | (\ (
+| ) \ \__| (____/\| (___) |___) (___/\____) |   | |   | (____/\| ) \ \__       /\____) || (____/\| ) \ \__  \   /  | (____/\| ) \ \__
+|/   \__/(_______/(_______)\_______/\_______)   )_(   (_______/|/   \__/       \_______)(_______/|/   \__/   \_/   (_______/|/   \__/
